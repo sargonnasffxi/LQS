@@ -22,13 +22,14 @@
 
 #include "common/database.h"
 #include "common/lua.h"
+#include "common/utils.h"
 #include "map/utils/charutils.h"
 #include "map/utils/itemutils.h"
 #include "map/item_container.h"
 #include "map/trade_container.h"
 
-#include "map/lua/lua_baseentity.h"
-#include "map/entities/npcentity.h"
+#include "map/lua/lua_base_entity.h"
+#include "map/entities/npc_entity.h"
 #include "map/enums/chat_message_type.h"
 #include "map/packets/s2c/0x017_chat_std.h"
 #include "map/packets/s2c/0x022_item_trade_res.h"
